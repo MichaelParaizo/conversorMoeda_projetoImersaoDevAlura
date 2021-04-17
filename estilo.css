@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url('https://png.pngtree.com/png-clipart/20200701/original/pngtree-gold-coin-money-bag-currency-arrow-up-png-element-png-image_5354497.jpg');
+    background-color: #000000;
+    background-size: 200vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    
+  }
+  
+  .page-title {
+    font-family: 'Zen Dots', cursive;
+    color: black;
+    margin: 5% 0 15px;
+    background-color:#32CD32;
+    display: inline-block;
+    justify-content: center;
+    width: 30%;
+  
+  }
+  
+  .page-subtitle {
+    font-family: 'Zen Dots', cursive;
+    color: black;
+    margin: 5px 35%;
+    background-color: white;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+
+
+  .calculaForms {
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight:bold;
+  }
+
+  .valorAtual,.valorDolar{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    width: 25%;
+    margin: 5px;
+    font-size: 20px;
+    font-weight:bold;
+    background: white;
+    opacity: 0.6;
+    border-style: solid;
+  }
+  
+button{
+    padding: 2px;
+    margin: auto;
+    font-weight:bold;
+    display:block;
+    border-radius: 5px;
+    font-size: 17px;
+    color:black;
+}
+
+.totalConsulta{
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  width: 30%;
+  padding: 5px;
+  margin: 20px 0 0;
+  font-size: 20px;
+  font-weight:bold;
+  background:#32CD32;
+  opacity: 0.7;
+  border-style: solid;
+}
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
